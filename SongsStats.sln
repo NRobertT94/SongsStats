@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SongsStats", "SongsStats\SongsStats.csproj", "{5645FFD6-2B64-49D1-85AC-17E2572BB6AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SongsStats.Tests", "SongsStats.Tests\SongsStats.Tests.csproj", "{ED0DCE2D-5313-47D0-A000-701C6A1E8B15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SongsStats.Tests", "SongsStats.Tests\SongsStats.Tests.csproj", "{ED0DCE2D-5313-47D0-A000-701C6A1E8B15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
