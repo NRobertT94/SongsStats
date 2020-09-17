@@ -1,0 +1,16 @@
+﻿
+#results-panel {
+    display: none;
+}
+
+#loading-text {
+    display: none;
+}
+
+#stats {
+    display: none;
+}
+
+#error {
+    display: none;
+}

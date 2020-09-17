@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewData["Title"] = "SongsStats";
+}
+
+<h2>Artist songs stats</h2>
+<div class="row">
+    <div class="col-12">
+        <input type="text" id="artist-text-box" placeholder="Please enter the artist name">
+        <button id="search">Search</button>       
+    </div>
+</div>
+
+<div class="row" id="results-panel">
+    <div class="col-12" id="loading-text">
+        <p>Loading...</p>
+    </div>
+    <div class="col-12" id="stats">
+        <h2>Stats:</h2>
+        <p>Name: <strong><span id="name"></span></strong></p>
+        <p>Songs analysed: <strong><span id="songs-count"></span></strong></p>
+        <p>Average no. of words in songs: <strong><span id="avg-words"></span></strong></p>
+        <p>Shortest song title: <strong><span id="shortest-song-title"></span></strong></p>
+        <p>Shortest song word count: <strong><span id="shortest-song-words"></span></strong></p>
+        <p>Longest song title: <strong><span id="longest-song-title"></span></strong></p>
+        <p>Longest song word count: <strong><span id="longest-song-words"></span></strong></p>
+        <p>Response time: <strong><span id="response-time"></span></strong></p>
+    </div>
+    <div class="col-12" id="error">
+        <p>An error has occured when getting the stats...</p>
+    </div>
+</div>
